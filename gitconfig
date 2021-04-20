@@ -15,7 +15,7 @@
 
 [alias]
   co = checkout
-  st = status -sb
+	st = status
   br = branch
   ci = commit
   fo = fetch origin
@@ -52,3 +52,8 @@
 [user]
 	email = dragon.aka.scooter@gmail.com
 	name = Ryuichiro Suzuki
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
