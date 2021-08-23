@@ -101,3 +101,5 @@ alias p3="python3"
 
 export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -a"
 export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -a"
+export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
+export BROWSER='"/mnt/c/Program Files/Google/Chrome/Application/chrome.exe"'
